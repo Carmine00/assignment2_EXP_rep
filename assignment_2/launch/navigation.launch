@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<launch>
+
+
+  <include file="$(find assignment_2)/launch/gmapping.launch"/>
+  <include file="$(find assignment_2)/launch/move_base.launch"/>
+  <include file="$(find assignment_2)/launch/sim_aruco2.launch"/>
+  <include file="$(find rosplan_interface)/launch/ros_plan.launch"/>
+  <node name="services_pddl" pkg="assignment_2" type="services_pddl.py" output="screen"/>
+
+
+</launch>
