@@ -22,6 +22,7 @@ git clone https://github.com/CarmineD8/SLAM_packages
 For the navigation:
 ```console
 sudo apt-get install ros-<ros_distro>-navigation
+sudo apt-get install ros-<ros_distro>-navigation-msgs
 ```
 After completing these needed steps, it is only necessary clone the reposity in the ros workspace, use catkin_make and run the following command:
 ```console
