@@ -46,7 +46,7 @@ To be defined...
   Watch the video using the simulated robot robot here
 </p>
 
-[![Watch the video](https://github.com/isacg5/assignment1_EXP_rep/blob/main/resources/sim_robot.png)](https://youtu.be/M5vqtRnRwP8)
+[![Watch the video](https://github.com/Carmine00/assignment2_EXP_rep/blob/main/resources/img.png)](https://youtu.be/EKx9IrjO614)
 
 
 
