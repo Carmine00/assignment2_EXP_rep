@@ -42,7 +42,11 @@ To be defined...
 To be defined...
 
 ## Videos
-To be defined...
+<p align="justify">
+  Watch the video using the simulated robot robot here
+</p>
+
+[![Watch the video](https://github.com/isacg5/assignment1_EXP_rep/blob/main/resources/sim_robot.png)](https://youtu.be/M5vqtRnRwP8)
 
 
 
