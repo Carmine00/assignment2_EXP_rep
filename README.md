@@ -36,7 +36,7 @@ Last but not least, the script __services_pddl.py__ calls all the services of th
 The generated plan can be read in __/assignment_2/pddl/plan.pddl__ or with the command __'rostopic echo rosplan_planner_interface/planner_output - p'__.
 
 ## Flowchart
-To be defined...
+![Flowchart is given below:](https://github.com/Carmine00/assignment2_EXP_rep/blob/main/resources/assignment2.jpg)
 
 ## Possible Improvements 
 To be defined...
