@@ -38,8 +38,10 @@ The generated plan can be read in __/assignment_2/pddl/plan.pddl__ or with the c
 ## Flowchart
 ![Flowchart is given below:](https://github.com/Carmine00/assignment2_EXP_rep/blob/main/resources/assignment2.png)
 
-## Possible Improvements 
-To be defined...
+## Possible improvements 
+* The default global planner used by the MoveBase package is Dijkstra’s algorithm but other choices such as A* or Carrot Planner could have been investigated, so as to study how the response time to complete the task changes based on the underlying implementation and choose based on this analysis the best option; the same reasoning holds for the local planner which was dwa but other options like eband and teb were available.
+* The algorithm used for mapping was based on Gmapping, which is a filtering based-approach, but another possible solution to be tested could have been an optimization-based approach such as KartoSlam.
+* The PDDL planning part was carried out assuming a solution to the given problem exists, moreover actions were assumed to be always successful. If these assumptions were dropped a more complex and general behaviour would be required to be investigated; some possible solutions in case the generation of the plan fails could be to require in input a new problem or try to solve a smaller part of the problem, whereas concerning the failure of a single action it could be possible to implement a recovery behaviour such as replan again or to reach the initial point and wait for further commands from the user.
 
 ## Videos
 <p align="justify">
